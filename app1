@@ -1,0 +1,26 @@
+import React, { Component } from 'react';
+import { Text, View, Image, Video } from 'react-native';
+
+export default class meuApp extends Component {
+  render(){
+  let imagem = {
+    uri:'https://c.tenor.com/4Arf9k1Kwq4AAAAM/duck-happy.gif'
+}
+
+    return(
+    <View style={{alignItems:'center'}}>
+      
+      <Text>    </Text>
+      <Text style={{fontSize:50}}>oi, vc é lind paraebens:3</Text>
+      <Text>     </Text>
+
+      {/*<Image source={require('./img/patin.gif')} style={{width:50, height:50}}/>*/}
+
+      <Image source={{uri:'https://i.pinimg.com/736x/bd/f8/64/bdf864366689d3b1599fd6ade561f502.jpg'}} style={{width:400, height:550}}/>
+
+      {/*<Image source={imagem} style={{width:170, height:200}}/>*/}
+
+    </View>
+    );
+  }
+}
